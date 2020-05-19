@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Fugaz+One&family=Marcellus&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container{
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.tooltip{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    transition: all 0.2s ease;
+}
+
+.state-name{
+    font-size: 30px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.state-description{
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+}
+
+.state-map{
+    min-height: 10rem;
+    max-height: 15rem;
+}
